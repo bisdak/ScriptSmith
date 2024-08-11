@@ -5,7 +5,7 @@ def run(playwright):
     browser = playwright.chromium.launch(headless=True)
     page = browser.new_page()
     page.goto("https://example.com")
-    page.screenshot(path="example_screenshot.png")
+    page.screenshot(path="/images/screenshot.png")
     browser.close()
 
 with sync_playwright() as playwright:

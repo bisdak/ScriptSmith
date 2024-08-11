@@ -8,6 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 playwright = "^1.45.1"
+streamlit = "^1.37.1"
 
 
 [build-system]

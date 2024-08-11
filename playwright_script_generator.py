@@ -29,4 +29,3 @@ class PlaywrightScriptGenerator:
     def run_script(self):
         # Execute the generated script directly
         exec(self.generate_script())
-
